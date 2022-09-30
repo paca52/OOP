@@ -22,7 +22,8 @@ Objektno orijentisano programiranje je zasnovano na **4** glavna principa, a to 
 
 U folderima u kojima nema zadataka ce biti ***main.md*** fajlovi. <br/>
 
-Kroz foldere sa zadatcima ce se uglavnom pojavljivati fajl sa nazivom ***Makefile***.
+U folderima sa zadatcima ce biti kontretan kod.
+Pored toga u folderima sa zadatcima ce se pojavljivati fajl sa nazivom ***Makefile***.
 *Makefile*, uglavnom, sluzi za kompajliranje i pokretanje C/C++ programa.
 U njemu stoje pravila po kojima ce da se kompajlira program.
 Da bi pokrenuli *Makefile*, neophodo je da imamo instaliran ***make***.
