@@ -2,9 +2,9 @@
 ## Enkapsulacija i atributi klase
 Klasa se definise kljucnom recju **class**:
 
->`class Moja_klasa {  };`
+>`class Moja_klasa {  };`    
 
-Klase su jako slicne C strukturama samo sto sada imaju i funkcije u njima.
+<br/>Klase su jako slicne C strukturama samo sto sada imaju i <ins>funkcije</ins> u njima.
 
 <ins>Primer strukture Tacka:</ins>
 >```cpp
@@ -22,16 +22,15 @@ Klase su jako slicne C strukturama samo sto sada imaju i funkcije u njima.
 
 <ins>**Klasinim atributima se nazivaju sve promenljive unutar klase.**</ins>
 
----------------------------------------------------------------------------
-### Koja je razlika strukture i klase?
+### <br/>Koja je razlika strukture i klase?
 ---------------------------------------------------------------------------
 Pored toga sto klase mogu da imaju i funkcije u njima, one imaju i opciju **ENKAPSULACIJE**.
 
 Enkapsulacija moze biti: *privatna(private)*, *zasticena(protected)* i *javna(public)*.
-<ins>*Enkapsulacija esencijalno opisuje ko moze da pristupi podatcima (atributima klase).*</ins>
+<br/><ins>*Enkapsulacija esencijalno opisuje ko moze da pristupi podatcima (atributima klase).*</ins>
 
-Tako, recimo, kada je deo podataka enkapsuliran kao **privatan**, <ins>to znaci da samo klasa moze da pristupi svojim atributima.</ins>
-Dok recimo kada je enkapsulacija** javna(public)**, <ins>onda svi mogu da pristupe tom atributu/ima koji su oznaceni kao javni.</ins>
+<br/>Tako, recimo, kada je deo podataka enkapsuliran kao **privatan**, <ins>to znaci da samo klasa moze da pristupi svojim atributima.</ins>
+<br/>Dok recimo kada je enkapsulacija** javna(public)**, <ins>onda svi mogu da pristupe tom atributu/ima koji su oznaceni kao javni.</ins>
 
 
 - Primer: 
@@ -101,10 +100,12 @@ Primer:
 >	float zbirTacaka() { 
 >		return x + y;
 >	}
+>	// klasa moze da pristupi svojim atributima nezavisno od njihove enkapsulacije
 >};
 >```
 
 ### Kako koristimo metode?
+---------
 
 Metode koristimo(pozivamo) na sledeci nacin:
 >```cpp
@@ -142,7 +143,7 @@ Zamisliti klasu <ins>*Trougao*</ins> koju ce opisati sledeci kod:
 >};
 >```
 Sta nas sprecava da stavimo neke nemoguce vrednosti za a, b i c?
-Trenutno je moguce uraditi sledece:
+<br/>Trenutno je moguce uraditi sledece:
 >```cpp
 >int main() {
 >	Trougao moj_trougao;
@@ -169,7 +170,7 @@ input: -1
 ```
 ```
 output: Obim trougla: -6
-		postoji stranice te duzine
+	postoji stranice te duzine
 ```
 
 Da bismo izbegli mogucnost da korisnik postavi neke nemoguce vrednosti, <ins>**uglavnom sve atribute stavljamo da su privatni.**</ins>
